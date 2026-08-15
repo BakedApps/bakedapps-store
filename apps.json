@@ -1,0 +1,169 @@
+{
+  "store": {
+    "name": "Baked Apps",
+    "developer": "Baked Apps",
+    "tagline": "Fresh apps, baked daily.",
+    "url": "https://bakedapps.cloud"
+  },
+  "featured": [
+    {
+      "id": "kairos",
+      "headline": "NEW",
+      "title": "Everything has its right moment.",
+      "subtitle": "Kairos is your AI-powered personal assistant — plan your day, manage tasks, and stay focused, calmly."
+    },
+    {
+      "id": "taxi-busters",
+      "headline": "PLAY NOW",
+      "title": "Chase. Bust. Repeat.",
+      "subtitle": "Grab the wheel of a pixel-art police interceptor and take runaway taxis off the highway."
+    }
+  ],
+  "categories": [
+    { "id": "ai", "name": "AI Apps" },
+    { "id": "productivity", "name": "Productivity" },
+    { "id": "developer-tools", "name": "Developer Tools" },
+    { "id": "games", "name": "Games" },
+    { "id": "lifestyle", "name": "Lifestyle" },
+    { "id": "web", "name": "Web Apps" }
+  ],
+  "apps": [
+    {
+      "id": "kairos",
+      "name": "Kairos",
+      "subtitle": "AI-Powered Personal Assistant",
+      "description": "Kairos is an AI-powered personal assistant that helps you plan your day, manage tasks, and get more done — with a calm, focused interface built around a simple idea: everything has its right moment.",
+      "longDescription": "Kairos brings an AI assistant into your daily routine to help you plan, prioritize, and follow through. Instead of another cluttered dashboard, it keeps things calm and focused so you can spend less time managing your day and more time living it.",
+      "icon": "icons/kairos.png",
+      "iconStyle": {
+        "objectFit": "contain"
+      },
+      "category": ["ai", "productivity"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://kairos.bakedapps.cloud",
+      "features": [
+        "AI-powered daily planning",
+        "Natural language task management",
+        "Clean, focused interface",
+        "Fast, distraction-free experience"
+      ]
+    },
+    {
+      "id": "app-icon-generator",
+      "name": "App Icon Generator",
+      "subtitle": "Generate App Icons in Seconds",
+      "description": "Upload a single 1024×1024 image and instantly generate every icon size required for the iOS App Store and Google Play — no design tools, no manual resizing.",
+      "longDescription": "App Icon Generator takes the busywork out of shipping an app. Drop in one high-resolution square image, choose iOS and/or Android, and get every required icon size — from the App Store listing icon down to iPad spotlight and settings icons — generated instantly in your browser.",
+      "icon": "icons/app-icon-generator.png",
+      "iconStyle": {
+        "objectFit": "contain"
+      },
+      "category": ["developer-tools", "productivity"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://appicongenerator.bakedapps.cloud",
+      "features": [
+        "Upload one 1024×1024 image, get every required size",
+        "Covers iPhone, iPad, and App Store listing sizes",
+        "Covers Android Google Play icon sizes",
+        "Simple drag-and-drop interface"
+      ]
+    },
+    {
+      "id": "qamer",
+      "name": "Qamer",
+      "subtitle": "Prayer Times Companion",
+      "description": "Qamer is a minimal, elegant prayer times companion — live location-based prayer times, instant Qibla direction, and calm, on-device reminders.",
+      "longDescription": "Built for modern Muslim life, Qamer pairs precise, location-based prayer time calculations with a serene bento-style layout, a one-tap Qibla compass, and personalized local reminders that run entirely on-device. Every detail, from typography to color contrast, is designed to stay out of your way and keep the focus on the moment.",
+      "iconEmoji": "🌙",
+      "category": ["lifestyle"],
+      "platform": "iOS",
+      "price": "Free",
+      "homepage": "https://qamer.bakedapps.cloud",
+      "features": [
+        "Location-based prayer times",
+        "One-tap Qibla direction with compass",
+        "Calm, on-device local reminders",
+        "Minimal, distraction-free bento layout",
+        "Privacy-first — no account required"
+      ]
+    },
+    {
+      "id": "socialmarks",
+      "name": "SocialMarks",
+      "subtitle": "Your Saves, Actually Findable",
+      "description": "SocialMarks gathers everything you save from X, Instagram, and YouTube into one searchable archive, so your best finds never get lost in tabs, likes, and saved folders. Currently in early access.",
+      "longDescription": "SocialMarks turns scattered social bookmarks into a personal intelligence engine. It syncs the posts, reels, and videos you save across platforms into a single private timeline, complete with folders, filters, and instant search by topic, creator, or keyword — so old ideas resurface instead of disappearing. SocialMarks is currently onboarding members in batches from its waitlist.",
+      "iconEmoji": "🔖",
+      "category": ["productivity", "web"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://socialmarks.bakedapps.cloud",
+      "features": [
+        "Unified timeline for X, Instagram, and YouTube saves",
+        "Instant search by topic, creator, or keyword",
+        "Folders and filters to keep saves organized",
+        "Private by default — no public feed"
+      ]
+    },
+    {
+      "id": "socialuploadr",
+      "name": "SocialUploadr",
+      "subtitle": "Upload to Every Platform, One API Call",
+      "description": "SocialUploadr is a single API that publishes your content to TikTok, Instagram, Facebook, YouTube, X, LinkedIn, and Threads at once — no per-platform OAuth integration to build and maintain.",
+      "longDescription": "Instead of building and maintaining a separate integration for every social platform, send one authenticated request to SocialUploadr and it handles the rest — adapting your content to each platform's requirements and publishing everywhere in one call. Built for developers automating content distribution, with a documented REST API and ready-made connections for tools like n8n, Make, and Zapier.",
+      "iconEmoji": "📤",
+      "category": ["developer-tools", "productivity"],
+      "platform": "API",
+      "price": "Freemium",
+      "homepage": "https://socialuploadr.bakedapps.cloud",
+      "features": [
+        "One API call to publish across 7 major platforms",
+        "Auto-adapts content to each platform's requirements",
+        "Whitelabel integration for your own brand",
+        "Works with n8n, Make, and Zapier",
+        "Documented REST API"
+      ]
+    },
+    {
+      "id": "taxi-busters",
+      "name": "Taxi Busters",
+      "subtitle": "Highway Interceptor Patrol",
+      "description": "Taxi Busters is a pixel-art arcade racer — get behind the wheel of a police interceptor, chase down runaway taxis on the highway, and climb the officer rankings.",
+      "longDescription": "Take the interceptor onto the highway in this retro pixel-art police chase game. Select your vehicle from the garage, patrol the highway for runaway taxis, earn your bank, and climb the leaderboard against other officers.",
+      "icon": "icons/taxi-busters.png",
+      "iconStyle": {
+        "objectFit": "cover"
+      },
+      "category": ["games"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://taxibusters.bakedapps.cloud",
+      "features": [
+        "Pixel-art police chase gameplay",
+        "Selectable vehicle garage",
+        "Global officer rankings",
+        "Play instantly in the browser"
+      ]
+    },
+    {
+      "id": "video-translator",
+      "name": "Video Translator",
+      "subtitle": "Caption Studio",
+      "description": "Video Translator takes a video link or upload and translates and captions it — with a live subtitle preview and instant re-styling, no re-downloading required.",
+      "longDescription": "Paste a video URL or upload a file, and Video Translator handles translation and captioning end to end. Preview subtitles live over the video and regenerate styling instantly without having to re-render or re-download the file, with support for cookie-based and OAuth token authentication for gated video sources.",
+      "iconEmoji": "🎬",
+      "category": ["productivity", "web"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://vidcaps.bakedapps.cloud",
+      "features": [
+        "Translate and caption from a video link or file upload",
+        "Live subtitle preview over the video",
+        "Instant re-styling without re-downloading",
+        "Supports cookie and OAuth token authentication for gated sources"
+      ]
+    }
+  ]
+}
