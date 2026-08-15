@@ -164,6 +164,24 @@
         "Instant re-styling without re-downloading",
         "Supports cookie and OAuth token authentication for gated sources"
       ]
+    },
+    {
+      "id": "photobooth",
+      "name": "Photobooth",
+      "subtitle": "Face-Detection Profile Photos",
+      "description": "Photobooth crops and centers a profile photo automatically using face detection — drop in a photo and download a ready-to-use headshot.",
+      "longDescription": "Drag in a JPG, PNG, WEBP, or HEIC photo and Photobooth detects the face and frames a clean profile picture, ready to download in one click — no manual cropping or resizing.",
+      "iconEmoji": "📸",
+      "category": ["productivity", "web"],
+      "platform": "Web",
+      "price": "Free",
+      "homepage": "https://photobooth.bakedapps.cloud",
+      "features": [
+        "Automatic face-detection cropping",
+        "Supports JPG, PNG, WEBP, and HEIC",
+        "Drag-and-drop or click to upload",
+        "One-click download"
+      ]
     }
   ]
 }
