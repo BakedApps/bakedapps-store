@@ -182,6 +182,32 @@
         "Drag-and-drop or click to upload",
         "One-click download"
       ]
+    },
+    {
+      "id": "kamus",
+      "name": "Kâmus",
+      "subtitle": "Instant Turkish Dictionary from the Menu Bar",
+      "description": "Kâmus is a free, open-source macOS menu bar app for instant Turkish dictionary lookups — select a word anywhere and a shortcut brings up its definition, saved locally so it also works offline.",
+      "longDescription": "Kâmus lives in the menu bar and opens instantly with a global shortcut (⌃⌘L by default). Select a word in any app and press the shortcut to look it up directly, without switching windows. Every successful search is saved to a local SQLite database, so previously looked-up words open instantly and work without an internet connection. It applies Turkish casing rules correctly (İ/I, ı/i) and needs no API key. Word data comes from the Turkish Language Association's public sozluk.gov.tr service; Kâmus is an independent, unofficial client for it.",
+      "icon": "icons/kamus.png",
+      "iconStyle": {
+        "objectFit": "contain"
+      },
+      "category": ["productivity"],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/mapetek/kamus",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "requirements": "macOS 12+, built from source with Xcode command line tools",
+      "features": [
+        "Instant menu bar access with a global shortcut (⌃⌘L)",
+        "Auto-searches the word you have selected in any app",
+        "Local SQLite dictionary — works offline after your first lookup",
+        "Correct Turkish casing rules (İ/I, ı/i)",
+        "No API key required"
+      ]
     }
   ]
 }
